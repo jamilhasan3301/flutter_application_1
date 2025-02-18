@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         children: [
           Icon(
             Icon.star,
-            size: 60,
+            size: 50,
             color: const Color.fromARGB(255, 45, 171, 216),
           )
           Text("hi, style: ",
