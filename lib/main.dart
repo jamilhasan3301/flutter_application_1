@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       body: Row(
         children: [
           Icon(
-            Icon.ac_unit,
+            Icon.star,
             size: 60,
             color: const Color.fromARGB(255, 45, 171, 216),
           )
