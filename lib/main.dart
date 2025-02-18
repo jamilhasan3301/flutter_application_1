@@ -20,6 +20,11 @@ class MyApp extends StatelessWidget {
         ),
       body: Row(
         children: [
+          Icon(
+            Icon.ac_unit,
+            size: 60,
+            color: const Color.fromARGB(255, 45, 171, 216),
+          )
           Text("hi, style: ",
            style: TextStyle(
             color: Colors.red,
