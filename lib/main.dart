@@ -13,9 +13,30 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "basic flutter UI -02" ,
       home:Scaffold(
-        appbar: AppBar(
-          title: Text("basic flutter UI -02")
-        )
+        appBar: AppBar(
+          title: Text("basic flutter UI -02"),
+          background: Colors.blue[400],
+          centerTitle: true,
+        ),
+      body: Row(
+        children: [
+          Text("hi, style: ",
+           style: TextStyle(
+            color: Colors.red,
+             fontSize: 30,
+           )
+          ),
+          Text("this is ", style: TextStyle(
+            color: Colors.yellow,
+             fontSize: 30,
+           )
+          ),
+          Text("flutter.", style: TextStyle(
+            color: Colors.blue,
+             fontSize: 30,
+           )
+          ),
+        ],
       )
       theme: ThemeData(
         // This is the theme of your application.
